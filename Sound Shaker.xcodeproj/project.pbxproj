@@ -12,6 +12,8 @@
 		210AEAC51CA087B800615E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210AEAC31CA087B800615E73 /* Main.storyboard */; };
 		210AEAC71CA087B800615E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210AEAC61CA087B800615E73 /* Assets.xcassets */; };
 		210AEACA1CA087B800615E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210AEAC81CA087B800615E73 /* LaunchScreen.storyboard */; };
+		210AEAD31CA08B7800615E73 /* VeerVaar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 210AEAD21CA08B7800615E73 /* VeerVaar.mp3 */; };
+		210AEAD51CA08BA500615E73 /* Taur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 210AEAD41CA08BA500615E73 /* Taur.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		210AEAC61CA087B800615E73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		210AEAC91CA087B800615E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		210AEACB1CA087B800615E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210AEAD21CA08B7800615E73 /* VeerVaar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = VeerVaar.mp3; sourceTree = "<group>"; };
+		210AEAD41CA08BA500615E73 /* Taur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Taur.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +62,20 @@
 				210AEAC11CA087B800615E73 /* ViewController.swift */,
 				210AEAC31CA087B800615E73 /* Main.storyboard */,
 				210AEAC61CA087B800615E73 /* Assets.xcassets */,
+				210AEAD11CA08B3B00615E73 /* sounds */,
 				210AEAC81CA087B800615E73 /* LaunchScreen.storyboard */,
 				210AEACB1CA087B800615E73 /* Info.plist */,
 			);
 			path = "Sound Shaker";
+			sourceTree = "<group>";
+		};
+		210AEAD11CA08B3B00615E73 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				210AEAD21CA08B7800615E73 /* VeerVaar.mp3 */,
+				210AEAD41CA08BA500615E73 /* Taur.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,8 @@
 			files = (
 				210AEACA1CA087B800615E73 /* LaunchScreen.storyboard in Resources */,
 				210AEAC71CA087B800615E73 /* Assets.xcassets in Resources */,
+				210AEAD51CA08BA500615E73 /* Taur.mp3 in Resources */,
+				210AEAD31CA08B7800615E73 /* VeerVaar.mp3 in Resources */,
 				210AEAC51CA087B800615E73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
